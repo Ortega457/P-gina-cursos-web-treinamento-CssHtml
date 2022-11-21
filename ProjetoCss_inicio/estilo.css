@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ccc;
+    margin: 0;
+}
+.hero{
+    background-image: url(bg-3.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+}
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 2px #333;
+}
+.hero-content button{
+    background: rgba(114, 98, 98, 0.315);
+    color: white;
+    cursor: pointer;
+    
+}
+
+.hero-content button:hover{
+    background: rgba(0,0,0,0.5);
+}
+.hero nav ul{
+    text-align: right;
+    margin: 10px 25px;
+}
+
+.hero nav li{
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+   
+}
+
+.hero nav a{
+    padding: 10px;
+    display: block;
+    background: rgba(0,0,0,0.2);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+}
+.hero nav a:hover{
+    background: rgba(0,0,0,0.5);
+}
+main{
+   width: 80%;
+   margin: auto;
+}
+
+.content-section{
+   background-color: white;
+   padding: 15px;
+   margin-top: 15px;
+}
+
+.content-section h2{
+    background-color: #ccc;
+    margin-top: 1px;
+}
+.estatistica p{
+    color: white;
+    text-align: center; /* usado para centralizar o texto */
+    background-color: rgba(51, 51, 51, 0.74);
+    height: 80px; /* usado para centralizar o copyright na tela */
+    line-height: 80px; /* usado para centralizar o copyright na tela */
+}
+.card p{
+    width: 120px;
+    height: 19px;
+    background: rgba(0,0,0,0.2);
+    border: 1px solid black;
+    display: block;
+    
+    
+}
+.card p:hover{
+    background: rgba(0,0,0,0.5);
+}
